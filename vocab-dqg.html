@@ -2871,127 +2871,210 @@ ldqd:trustworthiness skos:narrowMatch iso:credibility .
                             http://www.w3.org/ns/dqv#.</li>
                     </ul>
                 </section>
-        <section id="mapping-ISOZaveri" class="appendix">
-                    <h2>Correspondences between quality dimensions in ISO/IEC 25012 and Zaveri et al.</h2>
-                    <p>
-                    The dimensions listed in ISO/IEC 25012 [[ISOIEC25012]] and Zaveri et al. [[ZaveriEtAl]] are not disjoint. 
-        Assuming that  dimensions are expressed as instances of <code>skos:Concept</code>, the following table includes some of the correspondences that can be considered between these two classifications. </p>
-            <table class="definition" style="width: 100%">
-            <thead>
-                        <tr>				
-                            <th>Dimension from Zaveri et al.</th>
-                            <th>Dimension from ISO/IEC 25012</th>
-                            <th>Suggested mapping relation</th>
-                        </tr>
-            </thead>
-            <tbody>
-                        <tr>
-                            <td>Availability</td>
-                            <td>Availability</td>
-                            <td>skos:exactMatch</td>
-                        </tr>
-                        <tr>
-                            <td>Completeness</td>
-                            <td>Completeness</td>
-                            <td>skos:exactMatch</td>
-                        </tr>
-                        <tr>
-                            <td>Consistency</td>
-                            <td>Consistency</td>
-                            <td>skos:exactMatch</td>
-                        </tr>
-                        <tr>
-                            <td>Timeliness</td>
-                            <td>Currentness</td>
-                            <td>skos:exactMatch</td>
-                        </tr>
-                        <tr>
-                            <td>Interoperability</td>
-                            <td>Portability</td>
-                            <td>skos:relatedMatch</td>
-                        </tr>
-                        <tr>
-                            <td>Interoperability</td>
-                            <td>Compliance</td>
-                            <td>skos:relatedMatch</td>
-                        </tr>
-                        <tr>
-                            <td>Semantic Accuracy</td>
-                            <td>Accuracy</td>
-                            <td>skos:broadMatch</td>
-                        </tr>
-                        <tr>
-                            <td>Trustworthiness</td>
-                            <td>Credibility</td>
-                            <td>skos:narrowMatch</td>
-                        </tr>
-                        <tr>
-                            <td>Trustworthiness</td>
-                            <td>Traceability</td>
-                            <td>skos:relatedMatch</td>
-                        </tr>
+                <section id="mapping-ISOZaveri" class="appendix">
+                            <h2>Correspondences between quality dimensions in ISO/IEC 25012 and Zaveri et al.</h2>
+                            <p>
+                            The dimensions listed in ISO/IEC 25012 [[ISOIEC25012]] and Zaveri et al. [[ZaveriEtAl]] are not disjoint. 
+                Assuming that  dimensions are expressed as instances of <code>skos:Concept</code>, the following table includes some of the correspondences that can be considered between these two classifications. </p>
+                    <table class="definition" style="width: 100%">
+                    <thead>
+                                <tr>				
+                                    <th>Dimension from Zaveri et al.</th>
+                                    <th>Dimension from ISO/IEC 25012</th>
+                                    <th>Suggested mapping relation</th>
+                                </tr>
+                    </thead>
+                    <tbody>
+                                <tr>
+                                    <td>Availability</td>
+                                    <td>Availability</td>
+                                    <td>skos:exactMatch</td>
+                                </tr>
+                                <tr>
+                                    <td>Completeness</td>
+                                    <td>Completeness</td>
+                                    <td>skos:exactMatch</td>
+                                </tr>
+                                <tr>
+                                    <td>Consistency</td>
+                                    <td>Consistency</td>
+                                    <td>skos:exactMatch</td>
+                                </tr>
+                                <tr>
+                                    <td>Timeliness</td>
+                                    <td>Currentness</td>
+                                    <td>skos:exactMatch</td>
+                                </tr>
+                                <tr>
+                                    <td>Interoperability</td>
+                                    <td>Portability</td>
+                                    <td>skos:relatedMatch</td>
+                                </tr>
+                                <tr>
+                                    <td>Interoperability</td>
+                                    <td>Compliance</td>
+                                    <td>skos:relatedMatch</td>
+                                </tr>
+                                <tr>
+                                    <td>Semantic Accuracy</td>
+                                    <td>Accuracy</td>
+                                    <td>skos:broadMatch</td>
+                                </tr>
+                                <tr>
+                                    <td>Trustworthiness</td>
+                                    <td>Credibility</td>
+                                    <td>skos:narrowMatch</td>
+                                </tr>
+                                <tr>
+                                    <td>Trustworthiness</td>
+                                    <td>Traceability</td>
+                                    <td>skos:relatedMatch</td>
+                                </tr>
 
-                        <tr>
-                            <td>Understandability</td>
-                            <td>Understandability</td>
-                            <td>skos:exactMatch</td>
-                        </tr>
-                <!-- Added according to zaveri suggetions -->
-                        <tr>
-                            <td>Interpretability</td>
-                            <td>Understandability</td>
-                            <td>skos:relatedMatch</td>
-                        </tr>
-                        <tr>
-                            <td>Versatility</td>
-                            <td>Understandability</td>
-                            <td>skos:broadMatch</td>
-                        </tr>
-                        <tr>
-                            <td>Syntactic Validity</td>
-                            <td>Accuracy</td>
-                            <td>skos:broadMatch</td>
-                        </tr>
-                        <tr>
-                            <td>Syntactic Validity</td>
-                            <td>Compliance</td>
-                            <td>skos:broadMatch</td>
-                        </tr>
-                        <tr>
-                            <td>Licensing</td>
-                            <td>Accessibility</td>
-                            <td>skos:relatedMatch</td>
-                        </tr>
-                        <tr>
-                            <td>Security</td>
-                            <td>Traceability</td>
-                            <td>skos:relatedMatch</td>
-                        </tr>
-                        <tr>
-                            <td>Security</td>
-                            <td>Confidentiality</td>
-                            <td>skos:relatedMatch</td>
-                        </tr>
-                        <tr>
-                            <td>Performance</td>
-                            <td>Efficiency</td>
-                            <td>skos:exactMatch</td>
-                        </tr>
-                        <tr>
-                            <td>Interlinking</td>
-                            <td>Availability</td>
-                            <td>skos:broadMatch</td>
-                        </tr>
-                        <tr>
-                            <td>Representation-conciseness</td>
-                            <td>Compliance</td>
-                            <td>skos:broadMatch</td>
-                        </tr>
-            </tbody>
-
+                                <tr>
+                                    <td>Understandability</td>
+                                    <td>Understandability</td>
+                                    <td>skos:exactMatch</td>
+                                </tr>
+                        <!-- Added according to zaveri suggetions -->
+                                <tr>
+                                    <td>Interpretability</td>
+                                    <td>Understandability</td>
+                                    <td>skos:relatedMatch</td>
+                                </tr>
+                                <tr>
+                                    <td>Versatility</td>
+                                    <td>Understandability</td>
+                                    <td>skos:broadMatch</td>
+                                </tr>
+                                <tr>
+                                    <td>Syntactic Validity</td>
+                                    <td>Accuracy</td>
+                                    <td>skos:broadMatch</td>
+                                </tr>
+                                <tr>
+                                    <td>Syntactic Validity</td>
+                                    <td>Compliance</td>
+                                    <td>skos:broadMatch</td>
+                                </tr>
+                                <tr>
+                                    <td>Licensing</td>
+                                    <td>Accessibility</td>
+                                    <td>skos:relatedMatch</td>
+                                </tr>
+                                <tr>
+                                    <td>Security</td>
+                                    <td>Traceability</td>
+                                    <td>skos:relatedMatch</td>
+                                </tr>
+                                <tr>
+                                    <td>Security</td>
+                                    <td>Confidentiality</td>
+                                    <td>skos:relatedMatch</td>
+                                </tr>
+                                <tr>
+                                    <td>Performance</td>
+                                    <td>Efficiency</td>
+                                    <td>skos:exactMatch</td>
+                                </tr>
+                                <tr>
+                                    <td>Interlinking</td>
+                                    <td>Availability</td>
+                                    <td>skos:broadMatch</td>
+                                </tr>
+                                <tr>
+                                    <td>Representation-conciseness</td>
+                                    <td>Compliance</td>
+                                    <td>skos:broadMatch</td>
+                                </tr>
+                    </tbody>
                     </table>
+                </section>
+                <section id="Compatibility_with_RDF_Data_Cube" class="appendix">
+                    <h2>Compatibility with RDF Data Cube</h2>
+                    <p>The compatibility of DQV with RDF Data Cube Vocabulary has been tested assuming the following RDF Cube Data Structure Definition.</p>
+                    <pre class="highlight">
+ex:dsd  a     qb:DataStructureDefinition ;
 
-                        </section>
+## Derived from the structure of daq:dsq
+  ## The dimensions
+    qb:component  [ qb:dimension  dqv:isMeasurementOf ;
+                    qb:order      1
+                  ] ;
+    qb:component  [ qb:dimension  dqv:computedOn ;
+                    qb:order      2
+                  ] ;
+    qb:component  [ qb:dimension  dcterms:date ;
+                    qb:order      3
+                  ] ;
+    
+  ## The measure
+    qb:component  [ qb:measure  dqv:value ; ] ;
+
+
+  ## The attribute (unit of measurement)
+    qb:component [
+        qb:attribute sdmx-attribute:unitMeasure ;
+        qb:componentRequired false ;
+        qb:componentAttachment qb:DataSet ; ] ;
+
+</pre>    
+                    <p>RDF Data Cube Vocabulary's assumes the following integrity constraint: "no two qb:Observations in the same qb:DataSet may have the same value for all dimensions". This constraint applied to the previous data structure implies that two distinct quality measurements about the same metric, resource, and date, are not allowed.</p>
+                    <p>Metrics depending on parameters require some extra precautions in order to adhere to this constraint. In fact, they can have two distinct quality measurements, which are for the same resource, date, but are obtained applying distinct parameters.
+                    </p>
+                    <p>Among the possible precautions, DQV adopters can consider two modelling tricks:</p>
+                    <ul>
+                        <li>To extend the previous RDF data structure with the parameters;</li>
+                        <li>To define a different metric for each combination of the parameters values.</li>
+                    </ul>
+         <p>The example <a href="#ExpressQualLinkset">expressing the quality of a linkset</a> adopts the first modeling trick to manage two  parameters, <code>onProperty</code> and <code>onLanguage</code>, which are required by the metric “Multilingual importing”. In that example, DQV has been extended with two <code>owl:DataProperties</code>, one for each parameters. These parameters are defined as  <code>qb:DimensionProperty</code> and extend the RDF data structure above, as follows:</p>
+                     <pre class="highlight">
+## Extending the structure of daq:dsq with two new dimensions
+    qb:component  [ qb:dimension  :onProperty ;
+                    qb:order      4
+                  ] ;
+    qb:component  [ qb:dimension  :onLanguage ;
+                    qb:order      5
+                  ] .     
+        </pre> 
+                    <p>Alternatively, following the second modelling trick, we might have relied on the original data structure without adding any  OWl dataproperty to DQV. For example, applying the Multilingual Importing on the properties,  skos:prefLabel and skos:altLabel, and varying  the language on English and Italian, we could have splited the  metric <code>importingForPropertyPercentage</code> defined in the example for <a href="#ExpressQualLinkset">expressing the quality of a linkset</a>,  in four distinct metrics, one for each couple of parameters choosen, as in the following.</p> 
+                    <pre class="highlight">
+:importingForPropertyPercentagePrefLabelIt 
+    a dqv:Metric ;
+    skos:definition "Ratio between novel Italian preferred labels 
+    gained via skos:exactMatch links and Italian preferred labels 
+    already in the dataset."@en
+    dqv:expectedDataType xsd:double ;
+    dqv:inDimension  :completeness .
+    
+:importingForPropertyPercentagePrefLabelEn 
+    a dqv:Metric ;
+    skos:definition "Ratio between novel English preferred labels 
+    gained via skos:exactMatch links and English preferred labels 
+    already in the dataset."@en
+    dqv:expectedDataType xsd:double ;
+    dqv:inDimension  :completeness .
+    
+:importingForPropertyPercentageAltLabelIt 
+    a dqv:Metric ;
+    skos:definition "Ratio between novel Italian alternative labels 
+    gained via skos:exactMatch links and Italian alternative labels 
+    already in the dataset."@en
+    dqv:expectedDataType xsd:double ;
+    dqv:inDimension  :completeness .
+    
+:importingForPropertyPercentageAltLabelEn 
+    a dqv:Metric ;
+    skos:definition "Ratio between novel English alternative labels 
+    gained via skos:exactMatch links and English alternative labels 
+    already in the dataset."@en
+    dqv:expectedDataType xsd:double ;
+    dqv:inDimension  :completeness .
+</pre>
+                
+                    <p>In this way,  measurements of the multilingual importing applied on different parameters do not conflict each other, as they are modelled as measurements of distinct metrics. </p>
+            </section>
+                
             
 
         </body>
